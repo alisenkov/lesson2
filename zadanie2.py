@@ -40,12 +40,6 @@ compare_srt(dlina1, dlinа2)
 
 
 
-#print(first_str)
-#print(second_str)
-
-
-
-
 
 
 
