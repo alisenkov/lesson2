@@ -10,8 +10,8 @@
 
 
 
-first_str = str(input('введите первую строку: '))
-second_str = str(input('введите вторую строку: '))
+first_str = input('введите первую строку: ')
+second_str = input('введите вторую строку: ')
 dlina1 = (len(first_str))
 dlinа2 = (len(second_str))
 #print(dlina1)
@@ -19,24 +19,21 @@ dlinа2 = (len(second_str))
 
 
 
-def compare_srt(dlina1, dlinа2):
-    if first_str == second_str:
-       # return print("равны")
+def compare_srt(first_str, second_str):
+    if str(first_str) == str(second_str):
        return 1
         
 
-    elif dlina1 > dlinа2:
-       # return print("1й больше")
+    elif str(first_str) != str(second_str) and dlina1 > dlinа2:
        return 2
         
     
     elif first_str != second_str and second_str == "learn":
-       # return print("не равны")
        return 3
         
 
 
-compare_srt(dlina1, dlinа2)
+compare_srt(first_str, second_str)
 
 
 
