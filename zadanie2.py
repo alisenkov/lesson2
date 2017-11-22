@@ -12,25 +12,30 @@
 
 first_str = input('введите первую строку: ')
 second_str = input('введите вторую строку: ')
-dlina1 = (len(first_str))
-dlinа2 = (len(second_str))
+
 #print(dlina1)
 #print(dlinа2)
 
 
 
 def compare_srt(first_str, second_str):
+    dlina1 = (len(first_str))
+    dlinа2 = (len(second_str))
     if str(first_str) == str(second_str):
-       return 1
+        print("odinakovie")
+        return 1
         
-
+    elif first_str != second_str and second_str == "learn":
+        print("learn")
+        return 3
+        
+        
     elif str(first_str) != str(second_str) and dlina1 > dlinа2:
-       return 2
+        print("pervaya dlinaya")
+        return 2
         
     
-    elif first_str != second_str and second_str == "learn":
-       return 3
-        
+    
 
 
 compare_srt(first_str, second_str)
