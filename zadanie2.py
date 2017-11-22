@@ -22,16 +22,13 @@ def compare_srt(first_str, second_str):
     dlina1 = (len(first_str))
     dlinа2 = (len(second_str))
     if str(first_str) == str(second_str):
-        print("odinakovie")
         return 1
         
     elif first_str != second_str and second_str == "learn":
-        print("learn")
         return 3
         
-        
+
     elif str(first_str) != str(second_str) and dlina1 > dlinа2:
-        print("pervaya dlinaya")
         return 2
         
     
