@@ -1,4 +1,3 @@
-
 """
 Сравнение строк
 
@@ -12,9 +11,6 @@
 
 first_str = input('введите первую строку: ')
 second_str = input('введите вторую строку: ')
-
-#print(dlina1)
-#print(dlinа2)
 
 
 
@@ -36,17 +32,3 @@ def compare_srt(first_str, second_str):
 
 
 compare_srt(first_str, second_str)
-
-
-
-
-
-
-            
- 
-
-
-
-
-
-

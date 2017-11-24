@@ -1,5 +1,3 @@
-
-
 # ###Cоздать список с оценками учеников разных классов школы вида [{'school_class': '4a', 'scores': [3,4,4,5,2]}, ...]
 # Посчитать и вывести средний балл по всей школе.
 # Посчитать и вывести средний балл по каждому классу.
@@ -35,5 +33,3 @@ for data in spisok:
 
 average_ball_of_school = int(all_marks_sum / number_of_students_all)    # средний балл в школе
 print ('Средний балл школы равен: {} '.format(average_ball_of_school))
-
-   
