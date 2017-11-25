@@ -5,17 +5,17 @@ import random
 answers = ["хорошо", "пойдет", "сам такой"]
 
 def ask_user():
-    answer = input("спроси что-нибудь:\n")
-    if answer == "Пока":
-        print("И тебе")
-    elif len(answer) > 0:
-        get_answer()
-        ask_user()
+    while True:
+        answer = input("спроси что-нибудь:\n")
+        if answer == "Пока":
+            print("И тебе")
+            break
+        elif len(answer) > 0:
+            get_answer()
         
    
 
 def get_answer():
-    for x in ["answers"]:
         print(random.choice(answers))
         
 
